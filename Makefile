@@ -22,7 +22,7 @@ CFLAGS = -Wall -Werror -Wextra
 
 INCLUDES = -I $(MLX_DIR)/minilibx-linux/ -I ./libft
 
-MLX_FLAGS = -L $(LIBFT_DIR) -lft -L $(MLX_DIR)/minilibx-linux -Imlx_linux -lmlx -lXext -lX11 -lm -lbsd
+MLX_FLAGS = -L $(LIBFT_DIR) -lft -L $(MLX_DIR)/minilibx-linux -Imlx_linux -lmlx -lXext -lX11 -lm
 
 all: $(MLX) $(LIBFT) $(NAME)	
 
